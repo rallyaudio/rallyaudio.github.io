@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Figtree", "Helvetica Neue", Arial, sans-serif;
   color: var(--ink);
   background: linear-gradient(180deg, #37383b 0%, #3f4247 100%);
   min-height: 100vh;
@@ -69,7 +69,7 @@ img {
   align-items: center;
   gap: 10px;
   line-height: 1;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 1.05rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -119,7 +119,7 @@ main {
 }
 
 .hero-text h1 {
-  font-family: "A4 Speed", "Chakra Petch", sans-serif;
+  font-family: "A4 Speed", "Figtree", sans-serif;
   font-size: clamp(3.4rem, 8vw, 7.25rem);
   line-height: 1.05;
   text-transform: uppercase;
@@ -229,7 +229,7 @@ main {
 }
 
 .section-heading h2 {
-  font-family: "A4 Speed", "Chakra Petch", sans-serif;
+  font-family: "A4 Speed", "Figtree", sans-serif;
   font-size: clamp(2rem, 3vw, 3rem);
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -376,7 +376,7 @@ main {
 }
 
 .card h3 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Figtree", sans-serif;
   text-transform: uppercase;
   margin-bottom: 12px;
   color: #382120;
@@ -479,7 +479,7 @@ main {
 }
 
 .faq summary {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Figtree", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
