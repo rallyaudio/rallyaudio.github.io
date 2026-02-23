@@ -6,34 +6,34 @@ const header = document.querySelector(".site-header");
 const main = document.querySelector("main");
 
 const frameFiles = [
-  "0000.png",
-  "0008.png",
-  "0016.png",
-  "0024.png",
-  "0032.png",
-  "0040.png",
-  "0048.png",
-  "0056.png",
-  "0064.png",
-  "0072.png",
-  "0080.png",
-  "0088.png",
-  "0096.png",
-  "0104.png",
-  "0112.png",
-  "0120.png",
-  "0128.png",
-  "0136.png",
+  "0000.webp",
+  "0008.webp",
+  "0016.webp",
+  "0024.webp",
+  "0032.webp",
+  "0040.webp",
+  "0048.webp",
+  "0056.webp",
+  "0064.webp",
+  "0072.webp",
+  "0080.webp",
+  "0088.webp",
+  "0096.webp",
+  "0104.webp",
+  "0112.webp",
+  "0120.webp",
+  "0128.webp",
+  "0136.webp",
 ];
 
 const sequenceState = { frame: 0 };
 const frameBreakpoints = {
-  firstEnd: frameFiles.indexOf("0096.png"),
+  firstEnd: frameFiles.indexOf("0096.webp"),
   finalEnd: frameFiles.length - 1
 };
 const blendRange = {
-  start: frameFiles.indexOf("0128.png"),
-  end: frameFiles.indexOf("0136.png")
+  start: frameFiles.indexOf("0128.webp"),
+  end: frameFiles.indexOf("0136.webp")
 };
 const scrollSegments = {
   firstEnd: 0.45,
