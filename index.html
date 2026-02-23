@@ -19,13 +19,15 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="logo">Takeout Box</div>
+      <a class="logo" href="#top" aria-label="Takeout Box home">
+        <img src="resources/logo.svg" alt="Takeout Box logo" />
+        <span>TAKEOUT BOX</span>
+      </a>
       <nav class="site-nav">
         <a href="#product">Product</a>
-        <a href="#design">Design</a>
-        <a href="#gallery">Gallery</a>
+        <a href="#gallery">Prototypes</a>
         <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
       </nav>
     </header>
 
@@ -33,17 +35,15 @@
       <section class="hero" id="top">
         <div class="hero-text">
           <h1>
-            
             <span>Takeout Box</span>
           </h1>
           <p class="lede">
-            Takeout Box is a compact controller designed for pop-up sets, curbside
-            culture, and quick changeovers. Clean shell, Group B attitude, loud
-            performance brain.
+            The Takeout Box is a portable, powerful DIY solution for DJs on the go.
+            Pull up to your gig, connect to your device of choice and start mixing.
           </p>
           <div class="hero-actions">
-            <a class="btn" href="#contact">Start a conversation</a>
-            <a class="ghost" href="#gallery">See the render</a>
+            <a class="btn" href="#about">I&rsquo;m interested</a>
+            <a class="ghost" href="#gallery">See our progress</a>
           </div>
         </div>
         <div class="hero-visual" aria-hidden="true">
@@ -56,88 +56,63 @@
       <section class="section" id="product">
         <div class="section-heading">
           <p class="eyebrow">Product</p>
-          <h2>Built for quick moves.</h2>
+          <h2 class="title-slice title-slice-1">Reinventing the jogwheel.</h2>
         </div>
         <div class="grid two">
           <div class="card">
-            <h3>Pack-and-play profile</h3>
+            <h3>Portable</h3>
             <p>
-              The full controller set folds into a single box, keeping all knobs,
-              faders, and performance pads ready to deploy in under a minute.
+              Pop the Takeout Box in your bag and bring it on the go! The Takeout
+              Box is meant to be travelled with.
             </p>
           </div>
           <div class="card">
-            <h3>Controller twins</h3>
+            <h3>Customizable</h3>
             <p>
-              Two mirrored decks pop up for cueing and looping. Stay symmetrical
-              for muscle memory or split duties between two performers.
+              Assign each control to your liking. The Takeout Box is a standard MIDI
+              controller, allowing for full preference of control.
             </p>
           </div>
           <div class="card">
-            <h3>Rally chassis energy</h3>
+            <h3>Repairable</h3>
             <p>
-              Crisp planes, bold color cuts, and numbered deck zones give the
-              hardware the same intensity as a service-park machine.
+              Assemble the kit yourself (if you so please) and repair as needed.
+              The Takeout Box is designed for tinkering.
             </p>
           </div>
           <div class="card">
-            <h3>Partner-ready</h3>
+            <h3>Budget Friendly</h3>
             <p>
-              Designed to be collaborative: brand-ready shells, shared performance
-              profiles, and custom layouts for labels and events.
+              A perfect option for those looking to get into DJing without the high
+              upfront cost associated with DJ controllers.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="design">
-        <div class="section-heading">
-          <p class="eyebrow">Design language</p>
-          <h2>Ticket systems, rally cuts.</h2>
-        </div>
-        <div class="grid two">
-          <div>
-            <p>
-              The form language borrows from takeout packaging, boarding pass
-              typography, and Group B rally liveries. Surfaces stay minimal while
-              labels, serial blocks, and hard geometry keep controls legible fast.
-            </p>
-            <ul class="spec-list">
-              <li>Compact footprint for carry-on travel.</li>
-              <li>Touch points grouped for rapid transitions.</li>
-              <li>High-contrast labeling for low-light stage runs.</li>
-            </ul>
-          </div>
-          <div class="spec-block">
-            <div>
-              <p class="label">Targeting</p>
-              <p class="value">Pop-up DJs / brand activations</p>
-            </div>
-            <div>
-              <p class="label">Form factor</p>
-              <p class="value">Portable clamshell</p>
-            </div>
-            <div>
-              <p class="label">Build notes</p>
-              <p class="value">Layered shell + tactile switch pack</p>
-            </div>
           </div>
         </div>
       </section>
 
       <section class="section" id="gallery">
         <div class="section-heading">
-          <p class="eyebrow">Render</p>
-          <h2>Current build direction.</h2>
+          <p class="eyebrow">Prototypes</p>
+          <h2 class="title-slice title-slice-2">Current build direction.</h2>
         </div>
-        <div class="render-wrapper">
-          <img
-            src="resources/takeout_render.png"
-            alt="Takeout Box MIDI controller render"
-          />
-          <div class="render-caption">
-            A working render of the Takeout Box surface layout and rally-inspired
-            material direction.
+        <div class="prototype-grid">
+          <div class="render-wrapper">
+            <img
+              src="resources/takeout_render.png"
+              alt="Takeout Box prototype render view"
+            />
+          </div>
+          <div class="render-wrapper">
+            <img
+              src="resources/takeout-hero/0096.webp"
+              alt="Takeout Box prototype progress view one"
+            />
+          </div>
+          <div class="render-wrapper">
+            <img
+              src="resources/takeout-hero/0136.webp"
+              alt="Takeout Box prototype progress view two"
+            />
           </div>
         </div>
       </section>
@@ -145,51 +120,60 @@
       <section class="section" id="faq">
         <div class="section-heading">
           <p class="eyebrow">FAQ</p>
-          <h2>Quick answers.</h2>
+          <h2 class="title-slice title-slice-4">Quick answers.</h2>
         </div>
         <div class="faq">
           <details open>
-            <summary>Is this a product or a concept?</summary>
+            <summary>What will you be offering?</summary>
             <p>
-              A real prototype is underway. The site is here to signal the vision
-              to collaborators and potential partners.
+              We will be providing both completed units and DIY kits for the hobby
+              enthusiast. 3D print your own enclosure if you want!
             </p>
           </details>
           <details>
-            <summary>Can it work with existing DJ software?</summary>
+            <summary>Will it work with X software?</summary>
             <p>
-              The plan is to ship with flexible MIDI mappings so it can be tuned
-              for Rekordbox, Traktor, Ableton, or custom rigs.
+              While the Takeout Box has been designed for direct compatibility with
+              Djay, it can be configured as a MIDI device with any software that
+              allows for customization.
+            </p>
+          </details>
+          <details>
+            <summary>How much will it be?</summary>
+            <p>
+              We are working hard to bring the cost down, stay tuned for updates.
+              We want to make it as cheap as possible without cutting corners on
+              functionality.
             </p>
           </details>
           <details>
             <summary>When will it launch?</summary>
             <p>
-              We are collecting interest and refining the hardware. Partners who
-              want early access can reach out now.
+              We hope to have a viable kit available in May of 2026 (subject to
+              change).
             </p>
           </details>
         </div>
       </section>
 
-      <section class="section" id="contact">
+      <section class="section" id="about">
         <div class="section-heading">
-          <p class="eyebrow">About us</p>
-          <h2>Let’s build the next pop-up rig.</h2>
+          <p class="eyebrow">About Us</p>
+          <h2 class="title-slice title-slice-5">Stoked? We are as well!</h2>
         </div>
         <div class="grid two">
           <div>
-            <p>
-              Takeout Box is a small team of DJs and designers pushing portable
-              performance hardware. We build for fast setup, low stress, and
-              high-impact sets.
+            <p class="bare-paragraph">
+              Based in Seattle, we are a small but passionate team who love making
+              music and spinning (soon to be swiping!). Our mission is to bring
+              powerful, repairable DIY gear at a reasonable cost. Feel free to
+              shoot us a message with your thoughts, we&rsquo;d love to hear them!
             </p>
           </div>
           <div class="contact-card">
-            <p class="label">Partner inquiries</p>
-            <a href="mailto:hello@takeoutbox.audio">hello@takeoutbox.audio</a>
-            <p class="label">Based in</p>
-            <p>Atlanta, GA</p>
+            <p class="label">Questions?</p>
+            <a href="mailto:rallyaudio.dj@gmail.com">rallyaudio.dj@gmail.com</a>
+            <p class="label">Based in Seattle, WA</p>
           </div>
         </div>
       </section>

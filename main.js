@@ -44,7 +44,7 @@ const scrollSegments = {
 
 const images = frameFiles.map((file) => {
   const image = new Image();
-  image.src = encodeURI(`resources/takeout box render/${file}`);
+  image.src = encodeURI(`resources/takeout-hero/${file}`);
   return image;
 });
 
