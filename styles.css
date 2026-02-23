@@ -125,12 +125,12 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 20px;
-  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.45);
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.45);
 }
 
 .hero-text h1 span {
   display: block;
-  color: var(--ink);
+  color: var(--paper);
 }
 
 .eyebrow {
